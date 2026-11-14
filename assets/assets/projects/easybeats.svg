@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 210" width="620" height="210" role="img" aria-label="EasyBeats">
+<defs>
+<linearGradient id="a" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#388BFD"/><stop offset="1" stop-color="#00D4FF"/></linearGradient>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#161B22"/><stop offset="1" stop-color="#0F1A2E"/></linearGradient>
+<radialGradient id="gl" cx="1" cy="0" r="1"><stop offset="0" stop-color="#00D4FF" stop-opacity="0.18"/><stop offset="1" stop-color="#00D4FF" stop-opacity="0"/></radialGradient>
+</defs>
+<rect x="0.5" y="0.5" width="619" height="209" rx="16" fill="url(#bg)" stroke="#30363D"/>
+<rect x="0.5" y="0.5" width="619" height="209" rx="16" fill="url(#gl)"/>
+<text x="590" y="150" text-anchor="end" font-size="130" font-weight="800" fill="#388BFD" fill-opacity="0.10" font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif">05</text>
+<rect x="36" y="34" width="28" height="3" rx="1.5" fill="url(#a)"/>
+<text x="36" y="76" font-size="13" font-weight="600" letter-spacing="3" fill="#00D4FF" font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif">PROJECT 05</text>
+<text x="36" y="108" font-size="24" font-weight="700" fill="#F0F6FC" font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif">EasyBeats</text>
+<text x="36" y="136" font-size="14" fill="#8B949E" font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif">A music website with login and save-for-later music features.</text>
+<rect x="36" y="160" width="44" height="26" rx="13" fill="#0D1117" stroke="#30363D"/><text x="58.0" y="177" text-anchor="middle" font-size="12" fill="#8B949E" font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif">Web</text><rect x="88" y="160" width="59" height="26" rx="13" fill="#0D1117" stroke="#30363D"/><text x="117.5" y="177" text-anchor="middle" font-size="12" fill="#8B949E" font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif">Login</text><rect x="155" y="160" width="59" height="26" rx="13" fill="#0D1117" stroke="#30363D"/><text x="184.5" y="177" text-anchor="middle" font-size="12" fill="#8B949E" font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif">Music</text>
+</svg>
