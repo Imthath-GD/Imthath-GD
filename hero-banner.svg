@@ -1,0 +1,181 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 400" width="1280" height="400" role="img" aria-labelledby="t d">
+  <title id="t">Mohamed Imthath — Creative Designer, Digital Creator, Developer</title>
+  <desc id="d">Futuristic banner with isometric glass cubes and the tagline Turning Imagination Into Digital Experiences.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0D1117"/>
+      <stop offset="0.55" stop-color="#0B1630"/>
+      <stop offset="1" stop-color="#0A1F3D"/>
+    </linearGradient>
+    <radialGradient id="glowR" cx="0.78" cy="0.5" r="0.45">
+      <stop offset="0" stop-color="#00D4FF" stop-opacity="0.28"/>
+      <stop offset="0.5" stop-color="#388BFD" stop-opacity="0.10"/>
+      <stop offset="1" stop-color="#0D1117" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowL" cx="0.05" cy="0.1" r="0.4">
+      <stop offset="0" stop-color="#A371F7" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#0D1117" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="name" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#F0F6FC"/>
+      <stop offset="1" stop-color="#9FD3FF"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#388BFD"/>
+      <stop offset="1" stop-color="#00D4FF"/>
+    </linearGradient>
+    <linearGradient id="faceTop" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7FE7FF"/>
+      <stop offset="1" stop-color="#388BFD"/>
+    </linearGradient>
+    <linearGradient id="faceLeft" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2F6FD6"/>
+      <stop offset="1" stop-color="#16346E"/>
+    </linearGradient>
+    <linearGradient id="faceRight" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1B4A9E"/>
+      <stop offset="1" stop-color="#0B1B3F"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F0F6FC" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#F0F6FC" stop-opacity="0.03"/>
+    </linearGradient>
+    <linearGradient id="purple" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#C9A6FF"/>
+      <stop offset="1" stop-color="#6D3FC4"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#30363D" stroke-width="0.6" stroke-opacity="0.55"/>
+    </pattern>
+    <linearGradient id="gridFade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fff" stop-opacity="0.15"/>
+      <stop offset="0.6" stop-color="#fff" stop-opacity="0.6"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="1"/>
+    </linearGradient>
+    <mask id="gridMask">
+      <rect width="1280" height="400" fill="url(#gridFade)"/>
+    </mask>
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="14"/>
+    </filter>
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1280" height="400" fill="url(#bg)"/>
+  <rect width="1280" height="400" fill="url(#glowR)"/>
+  <rect width="1280" height="400" fill="url(#glowL)"/>
+  <rect width="1280" height="400" fill="url(#grid)" mask="url(#gridMask)"/>
+
+  <!-- Frame -->
+  <rect x="0.5" y="0.5" width="1279" height="399" fill="none" stroke="#30363D"/>
+
+  <!-- ============ LEFT: TYPOGRAPHY ============ -->
+  <g font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif">
+    <rect x="72" y="70" width="36" height="3" rx="1.5" fill="url(#accent)"/>
+    <text x="120" y="76" font-size="13" font-weight="600" letter-spacing="4" fill="#00D4FF">PORTFOLIO · GITHUB</text>
+
+    <text x="70" y="158" font-size="78" font-weight="800" letter-spacing="2" fill="url(#name)">MOHAMED</text>
+    <text x="70" y="236" font-size="78" font-weight="800" letter-spacing="2" fill="url(#accent)">IMTHATH</text>
+
+    <text x="72" y="282" font-size="16" font-weight="600" letter-spacing="3.2" fill="#F0F6FC">CREATIVE DESIGNER · DIGITAL CREATOR · DEVELOPER</text>
+    <text x="72" y="318" font-size="18" font-style="italic" fill="#8B949E">“Turning Imagination Into Digital Experiences.”</text>
+
+    <rect x="72" y="344" width="120" height="2" rx="1" fill="url(#accent)"/>
+    <rect x="200" y="344" width="24" height="2" rx="1" fill="#A371F7"/>
+  </g>
+
+  <!-- ============ RIGHT: 3D ARTWORK ============ -->
+  <!-- ambient glow behind hero cube -->
+  <ellipse cx="1000" cy="215" rx="150" ry="110" fill="#00D4FF" opacity="0.22" filter="url(#blur)"/>
+
+  <!-- orbit rings -->
+  <ellipse cx="1000" cy="205" rx="215" ry="70" fill="none" stroke="#388BFD" stroke-opacity="0.45" stroke-width="1.2" transform="rotate(-18 1000 205)"/>
+  <ellipse cx="1000" cy="205" rx="170" ry="52" fill="none" stroke="#00D4FF" stroke-opacity="0.35" stroke-width="1" stroke-dasharray="3 7" transform="rotate(-18 1000 205)"/>
+
+  <!-- glass panel (behind main cube) -->
+  <g transform="rotate(-8 1090 285)">
+    <rect x="1010" y="240" width="170" height="104" rx="12" fill="url(#glass)" stroke="#F0F6FC" stroke-opacity="0.25"/>
+    <circle cx="1028" cy="258" r="3.5" fill="#FF5F56"/>
+    <circle cx="1042" cy="258" r="3.5" fill="#FFBD2E"/>
+    <circle cx="1056" cy="258" r="3.5" fill="#27C93F"/>
+    <rect x="1028" y="278" width="70" height="5" rx="2.5" fill="#00D4FF" opacity="0.8"/>
+    <rect x="1028" y="292" width="110" height="5" rx="2.5" fill="#388BFD" opacity="0.7"/>
+    <rect x="1040" y="306" width="84" height="5" rx="2.5" fill="#A371F7" opacity="0.7"/>
+    <rect x="1028" y="320" width="56" height="5" rx="2.5" fill="#8B949E" opacity="0.6"/>
+  </g>
+
+  <!-- main cube -->
+  <g>
+    <polygon points="922,155 1000,200 1000,290 922,245" fill="url(#faceLeft)"/>
+    <polygon points="1000,200 1078,155 1078,245 1000,290" fill="url(#faceRight)"/>
+    <polygon points="1000,110 1078,155 1000,200 922,155" fill="url(#faceTop)"/>
+    <polyline points="922,155 1000,200 1078,155" fill="none" stroke="#BFEFFF" stroke-opacity="0.8" stroke-width="1.2"/>
+    <line x1="1000" y1="200" x2="1000" y2="290" stroke="#BFEFFF" stroke-opacity="0.55" stroke-width="1"/>
+    <polygon points="1000,110 1078,155 1078,245 1000,290 922,245 922,155" fill="none" stroke="#7FE7FF" stroke-opacity="0.9" stroke-width="1.2" stroke-linejoin="round"/>
+    <!-- inner wire details -->
+    <polygon points="1000,140 1040,163 1000,186 960,163" fill="none" stroke="#fff" stroke-opacity="0.55" stroke-width="1"/>
+    <line x1="940" y1="170" x2="940" y2="228" stroke="#7FE7FF" stroke-opacity="0.5"/>
+    <line x1="1060" y1="170" x2="1060" y2="228" stroke="#7FE7FF" stroke-opacity="0.35"/>
+  </g>
+
+  <!-- small cube top-right (purple) -->
+  <g>
+    <polygon points="1091,93 1120,110 1120,144 1091,127" fill="#4C2A94"/>
+    <polygon points="1120,110 1149,93 1149,127 1120,144" fill="#2B1560"/>
+    <polygon points="1120,76 1149,93 1120,110 1091,93" fill="url(#purple)"/>
+    <polygon points="1120,76 1149,93 1149,127 1120,144 1091,127 1091,93" fill="none" stroke="#D9C2FF" stroke-opacity="0.8" stroke-width="1" stroke-linejoin="round"/>
+  </g>
+
+  <!-- small cube bottom-left (cyan) -->
+  <g>
+    <polygon points="825,270 860,290 860,330 825,310" fill="#1F5FBF"/>
+    <polygon points="860,290 895,270 895,310 860,330" fill="#0E2A5E"/>
+    <polygon points="860,250 895,270 860,290 825,270" fill="url(#faceTop)"/>
+    <polygon points="860,250 895,270 895,310 860,330 825,310 825,270" fill="none" stroke="#9FEBFF" stroke-opacity="0.8" stroke-width="1" stroke-linejoin="round"/>
+  </g>
+
+  <!-- floating wireframe diamond -->
+  <polygon points="780,110 806,138 780,166 754,138" fill="none" stroke="#00D4FF" stroke-opacity="0.6" stroke-width="1.2"/>
+  <polygon points="780,124 792,138 780,152 768,138" fill="#00D4FF" fill-opacity="0.25"/>
+
+  <!-- floating hexagon -->
+  <polygon points="1210,230 1228,240 1228,260 1210,270 1192,260 1192,240" fill="none" stroke="#388BFD" stroke-opacity="0.7" stroke-width="1.2"/>
+  <polygon points="1210,242 1218,247 1218,255 1210,260 1202,255 1202,247" fill="#388BFD" fill-opacity="0.35"/>
+
+  <!-- glowing connection lines -->
+  <path d="M780 138 L922 155" stroke="url(#accent)" stroke-width="1" stroke-opacity="0.6" fill="none"/>
+  <path d="M1078 155 L1091 110" stroke="#A371F7" stroke-width="1" stroke-opacity="0.7" fill="none"/>
+  <path d="M895 290 L1000 290" stroke="#00D4FF" stroke-width="1" stroke-opacity="0.5" stroke-dasharray="2 5" fill="none"/>
+
+  <!-- particles -->
+  <g fill="#00D4FF">
+    <circle cx="700" cy="60" r="2" opacity="0.8"/>
+    <circle cx="760" cy="330" r="1.6" opacity="0.7"/>
+    <circle cx="890" cy="70" r="2.2" opacity="0.9"/>
+    <circle cx="1180" cy="60" r="1.8" opacity="0.7"/>
+    <circle cx="1240" cy="160" r="2" opacity="0.8"/>
+    <circle cx="1150" cy="350" r="1.6" opacity="0.7"/>
+    <circle cx="960" cy="350" r="2" opacity="0.8"/>
+  </g>
+  <g fill="#A371F7">
+    <circle cx="840" cy="200" r="2" opacity="0.8"/>
+    <circle cx="1190" cy="110" r="1.6" opacity="0.8"/>
+    <circle cx="1030" cy="45" r="1.8" opacity="0.8"/>
+    <circle cx="740" cy="250" r="1.4" opacity="0.7"/>
+  </g>
+  <g fill="#F0F6FC">
+    <circle cx="1100" cy="215" r="1.4" opacity="0.7"/>
+    <circle cx="880" cy="120" r="1.2" opacity="0.7"/>
+    <circle cx="1235" cy="320" r="1.4" opacity="0.6"/>
+  </g>
+  <g fill="#00D4FF" opacity="0.9">
+    <circle cx="1000" cy="45" r="3" filter="url(#soft)"/>
+    <circle cx="1180" cy="190" r="3" filter="url(#soft)"/>
+  </g>
+
+  <!-- bottom accent line -->
+  <rect x="0" y="396" width="1280" height="4" fill="url(#accent)" opacity="0.9"/>
+</svg>
